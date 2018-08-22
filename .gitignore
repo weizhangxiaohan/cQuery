@@ -1,0 +1,13 @@
+#Files to be ignored
+/.vs/
+bin/
+obj/
+log/
+/packages/
+/deploy/
+
+*.csproj.user
+*.orig
+*.swp
+*.pubxml.user
+
