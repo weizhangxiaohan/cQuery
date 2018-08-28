@@ -40,8 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtendMethods\BoolExtend.cs" />
     <Compile Include="ExtendMethods\DateTimeExtend.cs" />
     <Compile Include="ExtendMethods\DoubleExtend.cs" />
+    <Compile Include="ExtendMethods\ListStringExtend.cs" />
     <Compile Include="ExtendMethods\StringExtend.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
