@@ -50,6 +50,7 @@
     <Compile Include="ExtendMethods\BoolExtend.cs" />
     <Compile Include="ExtendMethods\DateTimeExtend.cs" />
     <Compile Include="ExtendMethods\DoubleExtend.cs" />
+    <Compile Include="ExtendMethods\EnumExtend.cs" />
     <Compile Include="ExtendMethods\IQueryableExtend.cs" />
     <Compile Include="ExtendMethods\ListStringExtend.cs" />
     <Compile Include="ExtendMethods\StringExtend.cs" />
