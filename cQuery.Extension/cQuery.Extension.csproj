@@ -53,6 +53,7 @@
     <Compile Include="ExtendMethods\EnumExtend.cs" />
     <Compile Include="ExtendMethods\IQueryableExtend.cs" />
     <Compile Include="ExtendMethods\ListStringExtend.cs" />
+    <Compile Include="ExtendMethods\LongExtend.cs" />
     <Compile Include="ExtendMethods\StringExtend.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
