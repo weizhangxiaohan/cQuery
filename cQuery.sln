@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cQuery.Extension", "cQuery.Extension\cQuery.Extension.csproj", "{23737E7A-4B1C-4382-B904-147F8CB332C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cQuery.Extension40", "cQuery.Extension\cQuery.Extension40.csproj", "{23737E7A-4B1C-4382-B904-147F8CB332C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cQuery.Extension45", "cQuery.Extension45\cQuery.Extension45.csproj", "{BD70C841-B0BC-48CD-ADA8-7B7A591A36FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{23737E7A-4B1C-4382-B904-147F8CB332C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23737E7A-4B1C-4382-B904-147F8CB332C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23737E7A-4B1C-4382-B904-147F8CB332C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD70C841-B0BC-48CD-ADA8-7B7A591A36FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD70C841-B0BC-48CD-ADA8-7B7A591A36FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD70C841-B0BC-48CD-ADA8-7B7A591A36FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD70C841-B0BC-48CD-ADA8-7B7A591A36FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
