@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cQuery.Extension40", "cQuer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cQuery.Extension45", "cQuery.Extension45\cQuery.Extension45.csproj", "{BD70C841-B0BC-48CD-ADA8-7B7A591A36FC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AD337011-525A-4C95-849D-C58B1D839958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cQuery.Extension45.Test", "cQuery.Extension45.Test\cQuery.Extension45.Test.csproj", "{3A4F0732-B0F7-4D61-949A-3A020A87FFA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,16 @@ Global
 		{BD70C841-B0BC-48CD-ADA8-7B7A591A36FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD70C841-B0BC-48CD-ADA8-7B7A591A36FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD70C841-B0BC-48CD-ADA8-7B7A591A36FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4F0732-B0F7-4D61-949A-3A020A87FFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4F0732-B0F7-4D61-949A-3A020A87FFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4F0732-B0F7-4D61-949A-3A020A87FFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4F0732-B0F7-4D61-949A-3A020A87FFA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A4F0732-B0F7-4D61-949A-3A020A87FFA1} = {AD337011-525A-4C95-849D-C58B1D839958}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22EA9395-F8AF-4F52-BA64-0A8F8204D58E}

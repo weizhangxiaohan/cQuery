@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,10 +47,14 @@
     <Compile Include="ExtendMethods\DateTimeExtend.cs" />
     <Compile Include="ExtendMethods\DoubleExtend.cs" />
     <Compile Include="ExtendMethods\EnumExtend.cs" />
+    <Compile Include="ExtendMethods\HttpClientExtend.cs" />
     <Compile Include="ExtendMethods\ListStringExtend.cs" />
     <Compile Include="ExtendMethods\LongExtend.cs" />
     <Compile Include="ExtendMethods\StringExtend.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
