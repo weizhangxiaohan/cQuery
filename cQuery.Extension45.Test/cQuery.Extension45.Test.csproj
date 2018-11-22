@@ -49,6 +49,7 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtendMethodTest\EnumTest.cs" />
     <Compile Include="ExtendMethodTest\HttpClientTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
