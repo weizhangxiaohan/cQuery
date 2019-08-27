@@ -52,6 +52,9 @@
     <Compile Include="ExtendMethods\LongExtend.cs" />
     <Compile Include="ExtendMethods\StringExtend.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Base64Util.cs" />
+    <Compile Include="Utils\MD5Util.cs" />
+    <Compile Include="Utils\SHA256Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
